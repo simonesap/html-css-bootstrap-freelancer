@@ -5,41 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./asset/css/style.css">
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
     <!--Header-->
     <header class="container">
-        <div class="row">
-            <div class="col-xs-6 collapse" id="navbarToggleExternalContent">
+        <div class="row bg-custom-b">
+            <div class="col-sm-6 height-10vh collapse" id="navbarToggleExternalContent">
                 <div class="p-4">
                 <h5 class="text-white h4">Collapsed content</h5>
                 <span class="text-muted text-white">Toggleable via the navbar brand.</span>
             </div>
             </div>
-            <nav class="col-xs-6 navbar navbar-dark" aria-current="page">
-                <div class="container d-flex justify-content-end">
-                    <button class="navbar-toggler b" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon  b c-w"></span>
+            <nav class="col-sm-6 height-10vh navbar navbar-brand mw-100" aria-current="page">
+                <div class="container d-flex mw-100">
+                    <h5 class="fs-2 h5 fw-bold text-uppercase text-white text-start">start bootstrap</h5>
+                    <button class="navbar-toggler text-white border border-white width-15" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-list text-white" viewBox="0 0 16 16">
+                            <path class="mw-100 border border-white" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </span>
                     </button>
                 </div>
             </nav>
         </div>
     </header>
     <!--Hero-->
-    <div></div>
+    <div class="container bg-custom-lightgreen height-40vh">
+        <div class="row">
+            <div class="col-sm-10 d-flex justify-content-center flex-wrap align-items-start">
+                <img class="w-50 h-50 mt-3" src="./asset/img/avatar.svg" alt="avatar">
+                <h3 class="h3 fw-bold text-uppercase text-white p-0">start bootstrap</h3>
+                <div class="d-flex justify-content-center align-items-center flex-wrap w-75">
+                    <div class="height-5px w-25 bg-white rounded"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" fill="currentColor" class="bi bi-star-fill text-white" viewBox="0 0 16 16">
+                        <path class="p-5" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <div class="height-5px w-25 bg-white rounded ml-1"></div>
+                </div>
+                <div class="text-uppercase text-white">graphic artist - web deigner - illustrator</div>
+            </div>
+        </div>
+    </div>
     <!--Main-->
-    <main
-    class="container">
-        <section class="row">
-            <div class="col"></div>
+    <main class="container">
+        <section class="row d-flex flex-column align-items-center h-100 flex-wrap">
+            <div class="col-sm-4 d-flex flex-column w-50 height-10vh justify-content-center align-items-center mt-4">
+                <h4 class="text-uppercase text-center w-100 fw-bold">portfolio</h4>
+                <div class="d-flex flex-row w-100 justify-content-center align-items-center">
+                    <div class="height-5px w-100 bg-dark rounded"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" fill="currentColor" class="bi bi-star-fill p-1" viewBox="0 0 16 16">
+                        <path class="p-5" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <div class="height-5px w-100 bg-dark rounded ml-1"></div>
+                </div>
+            </div>
+            <ul class="col-sm d-flex flex-wrap h-100 flex-wrap">
+                <li class="card-1 w-100 height-30vh rounded mt-3"></li>
+                <li class="card-2 w-100 height-30vh rounded mt-3"></li>
+                <li class="card-3 w-100 height-30vh rounded mt-3"></li>
+                <li class="card-4 w-100 height-30vh rounded mt-3"></li>
+                <li class="card-5 w-100 height-30vh rounded mt-3"></li>
+                <li class="card-6 w-100 height-30vh rounded mt-3"></li>
+            </ul>
         </section>
-        <section class="row">
-            <div class="col"></div>
+        <section class="row pb-4 h-100 bg-custom-lightgreen d-flex justify-content-center">
+            <div class="col-sm-10 d-flex flex-column align-items-center offset-sm-2 mt-4 w-75">
+                <h4 class="text-uppercase text-white text-center w-100 fw-bold">about</h4>
+                <div class="d-flex w-75 flex-row justify-content-center align-items-center">
+                    <div class="height-5px w-75 bg-white rounded"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" fill="currentColor" class="bi bi-star-fill p-1 text-white" viewBox="0 0 16 16">
+                        <path class="p-5" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <div class="height-5px w-75 bg-white rounded ml-1"></div>
+                </div>
+                <p class="text-white">
+                    <span class="text-uppercase">f</span>reelancer is a free bootstrap theme created by <span class="text-uppercase">s</span>tart <span class="text-uppercase">b</span>ootstrap.
+                    <span class="text-uppercase">t</span>he download includes the complete source files including <span class="text-uppercase">html, css,</span> and <span class="text-uppercase">j</span>ava<span>s</span>cript</span>
+                    as well as optional <span class="text-uppercase">less</span> stylesheets for easy customization.
+                    <br>
+                    <br>
+                    <span class="text-capitalize">whether</span> you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect
+                    starting point!
+                </p>
+                <button type="button" class="btn btn-primary btn-sm text-capitalize bg-custom-lightgreen border border-white"><i class="fa-solid fa-download mr-2"></i>download</button>
+            </div>
         </section>
-        <section class="row">
-            <div class="col"></div>
+        <section class="row d-flex flex-column align-items-center h-100 flex-wrap">
+            <div class="col-sm-4 d-flex flex-column w-50 height-10vh justify-content-center align-items-center mt-4">
+                <h4 class="text-uppercase text-center w-100 fw-bold">contact me</h4>
+                <div class="d-flex flex-row w-100 justify-content-center align-items-center">
+                    <div class="height-5px w-100 bg-dark rounded"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" fill="currentColor" class="bi bi-star-fill p-1" viewBox="0 0 16 16">
+                        <path class="p-5" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <div class="height-5px w-100 bg-dark rounded ml-1"></div>
+                </div>
+                <ul class="col-sm d-flex flex-wrap h-100 flex-wrap">
+                    <li class="w-100 text-capitalize rounded mt-3 border-bottom border-dark">name</li>
+                    <li class="w-100 text-capitalize rounded mt-3 border-bottom border-dark">email address</li>
+                    <li class="w- text-capitalize rounded mt-3 border-bottom border-dark">phone number</li>
+                    <li class="w-100 text-capitalize rounded mt-3">message</li>
+                    <li class="w-100 text-capitalize rounded mt-3 border-top border-dark">
+                        
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Footer-->
