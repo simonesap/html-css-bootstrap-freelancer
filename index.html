@@ -21,8 +21,8 @@
             </div>
             <nav class="col-sm-6 height-10vh navbar navbar-brand mw-100" aria-current="page">
                 <div class="container d-flex mw-100">
-                    <h5 class="fs-2 h5 fw-bold text-uppercase text-white text-start">start bootstrap</h5>
-                    <button class="navbar-toggler text-white border border-white width-15" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <h5 class="h5 fw-bold text-uppercase text-white text-start font-size-06">start bootstrap</h5>
+                    <button class="navbar-toggler text-white border border-white width-75 p-0 font-size-09" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon d-flex justify-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-list text-white" viewBox="0 0 16 16">
                             <path class="mw-100 border border-white" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -46,12 +46,12 @@
                     </svg>
                     <div class="height-5px w-25 bg-white rounded ml-1"></div>
                 </div>
-                <div class="text-uppercase text-white">graphic artist - web deigner - illustrator</div>
+                <div class="text-uppercase text-center text-white">graphic artist - web deigner - illustrator</div>
             </div>
         </div>
     </div>
     <!--Main-->
-    <main class="container">
+    <main class="container pb-5">
         <section class="row d-flex flex-column align-items-center h-100 flex-wrap">
             <div class="col-sm-4 d-flex flex-column w-50 height-10vh justify-content-center align-items-center mt-4">
                 <h4 class="text-uppercase text-center w-100 fw-bold">portfolio</h4>
@@ -63,7 +63,7 @@
                     <div class="height-5px w-100 bg-dark rounded ml-1"></div>
                 </div>
             </div>
-            <ul class="col-sm d-flex flex-wrap h-100 flex-wrap">
+            <ul class="col-sm d-flex list-style-type-none flex-wrap h-100 flex-wrap">
                 <li class="card-1 w-100 height-30vh rounded mt-3"></li>
                 <li class="card-2 w-100 height-30vh rounded mt-3"></li>
                 <li class="card-3 w-100 height-30vh rounded mt-3"></li>
@@ -94,7 +94,7 @@
                 <button type="button" class="btn btn-primary btn-sm text-capitalize bg-custom-lightgreen border border-white"><i class="fa-solid fa-download mr-2"></i>download</button>
             </div>
         </section>
-        <section class="row d-flex flex-column align-items-center h-100 flex-wrap">
+        <section class="row  pb-5 d-flex flex-column align-items-center h-100 flex-wrap">
             <div class="col-sm-4 d-flex flex-column w-75 justify-content-center align-items-center mt-4">
                 <h4 class="text-uppercase text-center w-100 fw-boldt">contact me</h4>
                 <div class="d-flex flex-row w-100 justify-content-center align-items-center">
@@ -104,26 +104,66 @@
                     </svg>
                     <div class="height-5px w-75 bg-dark rounded ml-1"></div>
                 </div>
-                <ul class="col-sm-4 list-group-flush p-0 d-flex justify-content-start w-100 flex-wrap h-100">
-                    <li class="list-group-item w-100 p-0 text-capitalize rounded mt-3">name</li>
-                    <li class="list-group-item w-100 p-0 text-capitalize rounded mt-3">email address</li>
-                    <li class="list-group-item w-100 p-0 text-capitalize rounded mt-3">phone number</li>
-                    <li class="list-group-item w-100 p-0 text-capitalize rounded mt-3">message</li>
-                    <div class="mb-3 height-5px">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea class="form-control border-0 w-100 height-5px p-0 text-capitalize mt-2" id="exampleFormControlTextarea1" rows="1"> </textarea>
+                <form class="col-sm-4 list-group-flush p-0 d-flex justify-content-start w-100 flex-wrap h-100">
+                    <div class="form-group list-group-item w-100 p-0 text-capitalize rounded mt-3">
+                        <input type="name" class="form-control dark border-0 text-capitalize p-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name">
                     </div>
-                    <li class="list-group-item w-100 p-0 mt-5 text-capitalize rounded border-top">
-                        <button type="button" class="btn btn-secondary mt-2 btn-sm text-capitalize bg-custom-lightgreen">send</button>                
-                    </li>
-                </ul>
-                
+                    <div class="form-group list-group-item w-100 p-0 text-capitalize rounded mt-3">
+                        <input type="name" class="form-control dark border-0 text-capitalize p-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email address">
+                    </div>
+                    <div class="form-group list-group-item w-100 p-0 text-capitalize rounded mt-3">
+                        <input type="name" class="form-control dark border-0 text-capitalize p-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="phone number">
+                    </div>
+                    <div class="form-group mb-3 height-5px">
+                        <textarea class="p-0 form-control border border-light pb-75 d-inline w-100 h-100 text-capitalize mt-2" id="exampleFormControlTextarea1" rows="1" placeholder="message"></textarea>
+                        <button type="button" class="btn btn-secondary border border-top mt-2 btn-sm text-capitalize bg-custom-lightgreen">send</button>
+                    </div>
+                </form>
+            </div>    
         </section>
     </main>
     <!--Footer-->
-    <footer>
-        <div></div>
-        <div></div>
+    <footer class="container height-60vh bg-custom-bl">
+        <div class="row">
+            <div class="col-sm h-25">
+                <div class="mt-5">
+                    <h6 class="text-uppercase text-white text-center mt-4 font-size-08">location</h6>
+                    <h6 class="text-capitalize text-white text-center font-size-07">2215 john daniel drive clark, <span class="text-uppercase">mo</span> 54243</h6>
+                </div>
+                <div class="mt-5">
+                    <h6 class="text-uppercase text-white text-center font-size-08">around the web</h6>
+                    <ul class="d-flex justify-content-space-around list-style-type-none">
+                        <li>
+                            <a href="#">
+                                <i class="m-1 border w-100 text-center border-white p-3 rounded-circle fa-brands fa-facebook-f text-white"></i>
+                            </a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#">
+                                <i class="margin-left-8 border w-100 text-center border-white p-3 rounded-circle fa-brands fa-google-plus-g text-white"></i><i class=""></i>
+                            </a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#">
+                                <i class="border border-white w-100 text-center p-3 rounded-circle text-white fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="mt-1">
+                            <a href="#">
+                                <i class="border border-white w-100 text-center p-3 rounded-circle text-white fa-brands fa-linkedin-in"></i>
+                            </a>    
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-5">
+                    <h6 class="text-uppercase font-size-08 text-white text-center mt-4">about freelancer</h6>
+                    <h6 class="text-white text-center font-size-08"><span class="text-uppercase">f</span>reelance is a free to use, open source <span class="text-uppercase">b</span>ootstrap theme created by <span class="text-center text-success text-capitalize">start bootstrap.</span></h6>
+                </div>
+            </div>
+            <div class="col-sm font-size-06 d-flex p-4 mt-3 align-items-center bg-custom-b text-capitalize h-25 text-white text-center">
+                copyright<span class=""><i class="fa-regular fa-copyright"></i></span>  your website 2019
+            </div>
+        </div>
     </footer>
 </body>
 </html>
